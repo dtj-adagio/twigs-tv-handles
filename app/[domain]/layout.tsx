@@ -25,6 +25,12 @@ export default function DomainLayout({ children, params }: Props) {
         {children}
         <div className="container grid items-top gap-6 pb-8 md:py-10 flex-1">
           <iframe src="https://embed.twitch.tv/?channel=tofie&parent=twigs.tv&layout=video" height="480px" width="854px"></iframe>
+          <p className="mt-6 max-w-lg text-sm">
+            More Tofie at{" "}
+            <a href="https://tofiemusic.net/" className="underline">
+              tofiemusic.net
+            </a>
+          </p>
         </div>        
       </div>
     </>
