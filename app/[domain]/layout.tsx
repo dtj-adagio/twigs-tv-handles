@@ -26,7 +26,6 @@ export default function DomainLayout({ children, params }: Props) {
         <div className="flex max-w-[980px] flex-col items-start gap-4">
           <iframe src="https://embed.twitch.tv/?channel=tofie&parent=twigs.tv" height="480px" width="854px"></iframe>
         </div>
-        }
       </div>
     </>
   )
