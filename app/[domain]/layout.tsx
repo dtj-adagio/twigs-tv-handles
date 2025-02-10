@@ -21,7 +21,7 @@ export default function DomainLayout({ children, params }: Props) {
       <SiteHeader items={siteConfig.mainNav}>
         <MainNav title={params.domain} items={siteConfig.mainNav} />
       </SiteHeader>
-      <div className="flex flex-2 flex-row">
+      <div className="flex flex-2 flex-wrap">
         <div className="flex max-w-[980px] flex-col items-start gap-4">{children}</div>
         <div className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
           <div className="flex max-w-[980px] flex-col items-start gap-4">
