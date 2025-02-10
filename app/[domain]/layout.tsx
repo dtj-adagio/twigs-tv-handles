@@ -24,7 +24,7 @@ export default function DomainLayout({ children, params }: Props) {
       <div className="flex flex-wrap">
         {children}
         <div className="container grid items-top gap-6 pb-8 md:py-10 flex-1">
-          <iframe src="https://embed.twitch.tv/?channel=tofie&parent=twigs.tv" height="480px" width="854px"></iframe>
+          <iframe src="https://embed.twitch.tv/?channel=tofie&parent=twigs.tv&layout=video" height="480px" width="854px"></iframe>
         </div>        
       </div>
     </>
