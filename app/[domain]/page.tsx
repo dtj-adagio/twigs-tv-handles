@@ -217,5 +217,5 @@ export default async function IndexPage({
 
 const RESERVED = [
   "TOFIE",
-  "TOFIEmusic"
+  "TOFIEmusic",
 ].map((x) => x.toLowerCase())
