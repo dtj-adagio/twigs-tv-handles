@@ -20,9 +20,9 @@ If you want to set up your own community handle for your own community, you can 
 
 You will need to own a domain you want to use, and have a Vercel account linked to your GitHub.
 
-### 1. Fork this repository
+### 1. Fork [this repository](https://github.com/mozzius/community-handles)
 
-Fork this repository to your own GitHub account, and clone it to your local machine.
+Fork [this repository](https://github.com/mozzius/community-handles) to your own GitHub account, and clone it to your local machine.
 
 ### 2. Add the project to Vercel
 
