@@ -15,12 +15,7 @@ export const siteConfig = {
       href: "/create-your-own",
     },
   ],
-  links: [
-    {
-    bsky: "https://bsky.app/profile/tofiemusic.net",
-    },
-    {
+  links: {
     github: "https://github.com/mozzius/community-handles",
     },
-  ],
 }
