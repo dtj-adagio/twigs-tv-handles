@@ -21,17 +21,11 @@ export function SiteHeader({ children }: Props) {
 
   const links = (
     <nav className="flex items-center gap-4 md:gap-1">
-      <Link href={siteConfig.links.bsky} target="_blank" rel="noreferrer">
-        <div
-          className={buttonVariants({
-            size: "sm",
-            variant: "ghost",
-          })}
-        >
-          <Icons.bsky className="size-5" />
-          <span className="sr-only">Bsky</span>
-        </div>
-      </Link>
+      <p>
+        <a href="https://bsky.app/profile/tofiemusic.net">
+          <img src="https://img.shields.io/badge/Bluesky-0285FF?logo=bluesky&logoColor=fff&label=Follow%20Tofie%20on&color=0285FF" />
+        </a>
+      </p>
       <Link href={siteConfig.links.github} target="_blank" rel="noreferrer">
         <div
           className={buttonVariants({
