@@ -22,7 +22,11 @@ export default function DomainLayout({ children, params }: Props) {
         <MainNav title={params.domain} items={siteConfig.mainNav} />
       </SiteHeader>
       <div className="flex flex-2 flex-row">
-        {children && (
+        {(
+          <div className="flex max-w-[980px] flex-col items-start gap-4">
+            children
+          </div>
+        ) && (
           <div className="flex max-w-[980px] flex-col items-start gap-4">
             <iframe src="https://embed.twitch.tv/?channel=tofie&parent=twigs.tv" height="480px" width="854px" />
           </div>
