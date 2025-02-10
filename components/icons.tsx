@@ -20,4 +20,5 @@ export const Icons = {
       ></path>
     </svg>
   ),
+  bsky: <img [src]="https://img.shields.io/badge/Bluesky-0285FF?logo=bluesky&logoColor=fff&label=Follow%20Tofie%20on&color=0285FF" />,
 }
