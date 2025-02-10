@@ -23,9 +23,7 @@ export default function DomainLayout({ children, params }: Props) {
       </SiteHeader>
       <div className="grid-container">
         {children}
-        <div className="flex max-w-[854px] flex-col items-start gap-4">
-          <iframe src="https://embed.twitch.tv/?channel=tofie&parent=twigs.tv" height="480px" width="854px"></iframe>
-        </div>
+        <iframe src="https://embed.twitch.tv/?channel=tofie&parent=twigs.tv" height="480px" width="854px"></iframe>
       </div>
     </>
   )
