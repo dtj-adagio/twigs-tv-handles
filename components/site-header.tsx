@@ -21,6 +21,17 @@ export function SiteHeader({ children }: Props) {
 
   const links = (
     <nav className="flex items-center gap-4 md:gap-1">
+      <Link href={siteConfig.links.bsky} target="_blank" rel="noreferrer">
+        <div
+          className={buttonVariants({
+            size: "sm",
+            variant: "ghost",
+          })}
+        >
+          <Icons.bsky className="size-5" />
+          <span className="sr-only">Bsky</span>
+        </div>
+      </Link>
       <Link href={siteConfig.links.github} target="_blank" rel="noreferrer">
         <div
           className={buttonVariants({
@@ -54,6 +65,9 @@ export function SiteHeader({ children }: Props) {
             </div>
             <div className="hidden flex-1 items-center justify-end space-x-4 md:flex">
               {links}
+            </div>
+            <div className="hidden flex-1 items-center justify-end space-x-4 md:flex">
+              
             </div>
           </div>
         </div>
