@@ -213,6 +213,7 @@ export default async function IndexPage({
       </div>
       <div className="flex max-w-[980px] flex-col items-start gap-4">
         <Stage title="Check out Tofie's Stream!" number={1}>
+          <iframe src="https://embed.twitch.tv/?channel=tofie&parent=twigs.tv" height="480px" width="854px"></iframe>
         </Stage>
       </div>
     </main>
