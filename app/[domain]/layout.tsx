@@ -21,8 +21,7 @@ export default function DomainLayout({ children, params }: Props) {
       <SiteHeader items={siteConfig.mainNav}>
         <MainNav title={params.domain} items={siteConfig.mainNav} />
       </SiteHeader>
-      <div className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
-        grid-template-columns: auto auto;
+      <div class="grid-container">
         {children}
         <div className="flex max-w-[854px] flex-col items-start gap-4">
           <iframe src="https://embed.twitch.tv/?channel=tofie&parent=twigs.tv" height="480px" width="854px"></iframe>
