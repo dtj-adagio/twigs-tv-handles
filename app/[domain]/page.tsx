@@ -210,18 +210,18 @@ export default async function IndexPage({
             .
           </p>
         </Stage>
-      </div>
-      <div class="container grid items-center gap-6 pb-8 pt-6 md:py-10">
-        <div id="twitch-embed"></div>
-        <script src="https://embed.twitch.tv/embed/v1.js"></script>
-        <script type="text/javascript">
-          new Twitch.Embed("twitch-embed", {
-            width: 854,
-            height: 480,
-            channel: "tofie",
-            parent: ["twigs.tv"]
-          });
-        </script>
+        <div class="container grid items-center gap-6 pb-8 pt-6 md:py-10">
+          <div id="twitch-embed"></div>
+          <script src="https://embed.twitch.tv/embed/v1.js"></script>
+          <script type="text/javascript">
+            new Twitch.Embed("twitch-embed", {
+              width: 854,
+              height: 480,
+              channel: "tofie",
+              parent: ["twigs.tv"]
+            });
+          </script>
+        </div>
       </div>
     </main>
   )
