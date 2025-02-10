@@ -211,6 +211,20 @@ export default async function IndexPage({
           </p>
         </Stage>
       </div>
+      <div className="flex max-w-[980px] flex-col items-start gap-4">
+        <Stage title="Check out Tofie's Stream!" number={1}>
+          <div id="twitch-embed"></div>
+          <script src="https://embed.twitch.tv/embed/v1.js"></script>
+          <script type="text/javascript">
+            new Twitch.Embed("twitch-embed", {
+              width: 854,
+              height: 480,
+              channel: "tofie",
+              parent: ["twigs.tv"]
+            });
+          </script>
+          </Stage>
+        </div>
     </main>
   )
 }
